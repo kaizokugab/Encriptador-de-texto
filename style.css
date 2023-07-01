@@ -1,0 +1,127 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+}
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.contenedor-texto{
+    margin-left: 100px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90PX;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.contenedor-mensaje{
+    margin-left: 20%;
+    
+}
+
+.mensaje{
+    background: white;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    resize: none;
+    
+    
+}
+.mensaje:focus {
+    outline: none;
+}
+.mensaje::placeholder{
+    padding-top: 540px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+}
+
+
+.alerta {
+    padding-top: 110px;
+    display: flex;
+    
+}
+.alerta-img{
+    padding-top: 15px;
+    position: relative;
+    height: 20px;
+}
+
+.alerta p{
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #495057;
+    
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desencriptar{
+    background-color:#D8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 720px;
+    position: fixed;
+    width: 336px;
+}
